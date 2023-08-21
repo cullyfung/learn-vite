@@ -1,0 +1,26 @@
+{
+  "name": "package-a",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "imports": {
+    "#dep": {
+      "node": "lodash-es"
+    }
+  },
+  "exports": {
+    ".": "./index.js",
+    "./foo": "./foo.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash-es": "^4.17.21",
+    "react": "^18.2.0"
+  }
+}
