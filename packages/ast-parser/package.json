@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "vitest"
+    "test": "vitest",
+    "build": "tsup ./src/index.ts --format cjs,esm"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3",
     "vitest": "^1.1.0"
   }
 }
